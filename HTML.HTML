@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Easy Tutorials</title>
+    <link rel="stylesheet" href="CSS.CSS">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <!-- Video Background -->
+        <video autoplay loop muted playsinline id="background-video">
+            <source src="pradyumna folder\Images\Hi-Tech Intro_1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+        <div class="container">
+            <!-- Navbar -->
+            <nav>
+                <img src="pradyumna folder/Images/logo__2_-removebg-preview.png" style="filter: invert(100%);" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+    
+            <!-- Overlay Text -->
+            <div class="overlay">
+                <div class="header-text">
+                    <p>Hello, I’m A 25-Year-Old Young Entrepreneur</p>
+                    <h1>Hi, I'm <span style="color: yellowgreen;">Pradyumna Aadvik</span></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="pradyumna folder/Images/1736418714513.jpeg" alt="Pradyumna Aadvik">
+            </div>
+            <div class="about-col-2"> 
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    I’m <strong>Pradyumna Aadvik</strong>, the visionary behind <strong>Cleando Group</strong>, a multifaceted enterprise comprising Cleando Tour & Travels, Cleando Digital, and Public Tantra News.  
+                    With a passion for digital marketing, media, and business innovation, I lead strategic transformations that empower individuals and brands.  
+                    <br><br>
+                    Through my expertise in SEO, social media marketing, content creation, and branding, I help businesses amplify their online presence and drive engagement.  
+                    My mission is to redefine marketing strategies and business solutions for a digital-first world.
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" style="color: rgb(129, 127, 238);" id="skills">
+                    <ul>
+                        <li><span style="color: white;">Digital Marketing</span><br>SEO | Social Media Marketing | Branding</li>
+                        <li><span style="color: white;" >Web Development</span><br>HTML | CSS | JavaScript | React | Express.js | MongoDB | Tailwind CSS</li>
+                        <li><span style="color: white;">Business Strategy</span><br>Marketing Growth | Client Acquisition | Strategic Planning</li>
+                        <li><span style="color: white;">Video Editing & Content Creation</span><br>Adobe Premiere Pro | YouTube | Social Media Content</li>
+                        <li><span style="color: white;">Cybersecurity Enthusiast</span><br>Ethical Hacking & Security Awareness</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience" style="color:  rgb(129, 127, 238);">
+                    <ul>
+                        <li><span style="color: white;" >Founder & CEO - Cleando Group</span><br>Leading digital marketing, travel, and media businesses.</li>
+                        <li><span style="color: white;">Digital Marketing Expert</span><br>Specializing in SEO, content creation, and social media growth.</li>
+                        <li><span style="color: white;">Entrepreneurship & Business Growth</span><br>Helping brands expand and increase market presence.</li>
+                        
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education" style="color:  rgb(129, 127, 238);">
+                    <ul>
+                        <li><span style="color: white;">Artificial Intelligence Tools</span><br>Cassferr Inc</li>
+                        <li><span style="color: white;">Deen Dayal Upadhyaya (DDU) Gorakhpur University</span><br>Business and Marketing Courses</li>
+                        
+                    </ul>
+                </div>
+
+                <br>
+                <a href="https://www.linkedin.com/in/pradyumna-aadvik-digital-marketing/" target="_blank" class="btn">View My LinkedIn</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <img src="pradyumna folder\Images\images (2).jpeg" alt="Web Development">
+                <i class="fas fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Crafting responsive, user-friendly websites that bring your vision to life.</p>
+                <a href="#">Learn more</a>
+            </div>
+    
+            <div>
+                <img src="pradyumna folder\Images\download (1).jpeg" alt="Video Editing">
+                <i class="fas fa-video"></i>
+                <h2>Video Editing</h2>
+                <p>Transforming raw footage into compelling, professional videos that captivate audiences.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <img src="pradyumna folder\Images\download (2).jpeg" alt="Digital Marketing">
+                <i class="fas fa-bullhorn"></i>
+                <h2>Digital Marketing</h2>
+                <p>Enhancing your online presence through strategic digital marketing solutions.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <img src="pradyumna folder\Images\images (1).jpeg" alt="SEO Optimization">
+                <i class="fas fa-chart-line"></i>
+                <h2>SEO Optimization</h2>
+                <p>Improving your website's visibility and ranking on search engines.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <img src="pradyumna folder\Images\Content Marketing.webp" alt="Content Creation">
+                <i class="fas fa-pen-nib"></i>
+                <h2>Content Creation</h2>
+                <p>Developing engaging content that resonates with your target audience.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <img src="pradyumna folder\Images\images (3).jpeg" alt="Content Creation">
+                <i class="fas fa-pen-nib"></i>
+                <h2>Political Compaign</h2>
+                <p>Developing engaging content that resonates with your target audience.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <img src="pradyumna folder\Images\images (4).jpeg" alt="Content Creation">
+                <i class="fas fa-pen-nib"></i>
+                <h2>Advertisement</h2>
+                <p>Developing engaging content that resonates with your target audience.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <img src="pradyumna folder\Images\images (5).jpeg" alt="Content Creation">
+                <i class="fas fa-pen-nib"></i>
+                <h2>Event Management</h2>
+                <p>Developing engaging content that resonates with your target audience.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="pradyumna folder\Images\WhatsApp Image 2025-02-19 at 11.45.20 AM.jpeg">
+                <div class="layer">
+                    <h3>To-DO</h3>
+                    <p></p>
+                    <p>"Advertisement Compaign"</p>
+                    <p>"Using Adobe Pr , Photoshop , Davinci"</p>
+                    <a href="https://www.youtube.com/@UmaMultispecialityHospitalP"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="pradyumna folder\Images\channels4_profile.jpg">
+                <div class="layer">
+                    <h3>Youtube Management</h3>
+                    <p></p>
+                    <p>"Management And Content Creation"</p>
+                    <a href="https://www.youtube.com/@NEWSNBC24"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="pradyumna folder\Images\channels4_profile (1).jpg">
+                <div class="layer">
+                    <h3>Youtube Content creation</h3>
+                    <p>Advertisement</p>
+                    <p></p>
+                    <a href="https://www.youtube.com/watch?v=d9l4DgLSF6s"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>contact.pradyumnayadav@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>+91- 9172193057</p>
+                <div class="social-icons">
+                  <img src="download__2_-removebg-preview.png" alt=""><a href="https://www.facebook.com/pradyumnaaadvik05"></a>
+                   <img src="download__2_-removebg-preview.png" alt=""><a href="https://www.facebook.com/pradyumnaaadvik05">Meet</a>
+                    
+                    <a href="cleandodigital.com">Website</a>
+                    <a href="https://www.linkedin.com/in/pradyumna-aadvik-digital-marketing/">Linkedin</a>
+                </div>
+                <a href="https://in.linkedin.com/company/cleandodigital?trk=public_profile_topcard-current-company" download class="btn btn2" style="color: rgb(239, 243, 233);">Visit Us</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright ©2025 CleandoDigital <i class="fas fa-heart"></i> <a href="https://youtu.be/e1owSj96QcM?si=iNav678ah5Qd_ERg">- CASTONATI</a></p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxF0G0vtjU8PZx44IwMcwimgNOC1T7duYFRtdFFZQhY9WGxy3824gT7maQOtD5EvKg/exec' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
